@@ -1,4 +1,4 @@
-const db = require('../db');
+const db = require('../db'); // 데이터베이스 연결 모듈
 require('dotenv').config();
 
 // 전체 뉴스 조회
