@@ -50,6 +50,6 @@ app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
 
-// 투자 뉴스 라우터
+
 const investNewsRouter = require('./routes/investNews.router');
 app.use('/api', investNewsRouter);
