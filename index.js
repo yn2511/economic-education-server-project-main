@@ -50,5 +50,6 @@ app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
 
+
 const investNewsRouter = require('./routes/investNews.router');
 app.use('/api', investNewsRouter);
